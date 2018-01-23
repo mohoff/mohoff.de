@@ -1,0 +1,53 @@
+body {
+	font: 16px / 1 "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #616161;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+}
+
+header, main {
+	max-width: 512px;
+	margin: 0 auto;
+}
+
+header {
+	padding-top: 44px;
+	border-bottom: 1px solid #e0e0e0;
+	margin-bottom: 32px;
+	padding-bottom: 32px;
+	text-align: center;
+	position: relative;
+}
+
+#avatar {
+	display: inline-block;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	margin-bottom: 20px;
+
+	background-image: url("../img/avatar.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+a {
+	text-decoration: none;
+	color: #1565C0;
+}
+
+h1 {
+	font-weight: 400;
+	font-size: 32px;
+	font-family: 'Nixie One', Helvetica, Arial, sans-serif;
+}
+
+p {
+	line-height: 1.8;
+	margin-bottom: 28px;
+	text-align: justify;
+}
+
+@media screen and (max-width: 540px) {
+	header, main { padding: 20px; }
+}
