@@ -9,7 +9,7 @@ sea blue:     #046e8f;
 */
 
 body {
-	max-width: 512px;
+	max-width: 400px;
 	margin: 0 auto;
 	padding: 0 24px;
   font-size: 1.2rem;
@@ -26,7 +26,7 @@ a {
 
 h1 {
   font-size: 3rem;
-  font-family: 'Old Standard TT', serif;
+  font-family: 'Nanum Myeongjo', serif;
   font-weight: normal;
 }
 
