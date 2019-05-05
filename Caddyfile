@@ -1,0 +1,8 @@
+localhost:8080, https://mohoff.de {
+  root /srv
+  gzip
+  errors /var/log/caddy.error.log {
+    404 /srv/404.html
+  }
+  log /var/log/caddy.log
+}
