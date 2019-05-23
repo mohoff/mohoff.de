@@ -6,3 +6,7 @@ localhost:8080, https://mohoff.de {
   }
   log /var/log/caddy.access.log
 }
+
+www.mohoff.de {
+  redir https://mohoff.de
+}
