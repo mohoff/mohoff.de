@@ -28,7 +28,7 @@ COPY --from=builder /install/caddy /usr/bin/caddy
 RUN /usr/bin/caddy -version
 RUN /usr/bin/caddy -plugins
 
-EXPOSE 80 443
+EXPOSE 8000
 VOLUME /root/.caddy /srv
 WORKDIR /srv
 
