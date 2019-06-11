@@ -1,3 +1,5 @@
 :80 {
+  root /srv
   gzip
+  tls off
 }
