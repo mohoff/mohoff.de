@@ -1,5 +1,7 @@
-:80 {
-  root /srv
-  gzip
-  tls off
+:80
+
+root * /srv
+file_server
+log {
+	output file /var/log/access.log
 }

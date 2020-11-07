@@ -11,7 +11,7 @@ sea blue:     #046e8f;
 body {
 	max-width: 400px;
 	margin: 0 auto;
-	padding: 0 24px;
+	padding: 0 24px 48px;
   font-size: 1.2rem;
   font-family: 'Roboto', sans-serif;
   color: #183446;
