@@ -1,4 +1,4 @@
-FROM caddy:2.1.1
+FROM caddy:2.4.6
 
 WORKDIR /srv
 
